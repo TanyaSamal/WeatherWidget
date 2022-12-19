@@ -1,0 +1,44 @@
+﻿#container, #status {
+    width: 30vw;
+    min-width: 300px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+#status {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+    h1 {
+        text-align: center;
+    }
+
+.weather-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    padding: 5px 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ffd800;
+    font-size: 1.2em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #e9ca1a;
+    cursor: pointer;
+}
